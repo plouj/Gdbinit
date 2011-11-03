@@ -104,7 +104,7 @@ set height 0
 set width 0
 
 # Display instructions in Intel format - change to "att" if you prefer AT&T format
-set disassembly-flavor intel
+set disassembly-flavor att
 
 set $SHOW_CONTEXT = 1
 set $SHOW_NEST_INSN = 0
