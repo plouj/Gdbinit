@@ -64,7 +64,7 @@
 # __________________gdb options_________________
 
 # set to 1 to enable 64bits target by default (32bits is the default)
-set $64BITS = 0
+set $64BITS = 1
 
 if $64BITS == 1
    printf "64-bit mode assumbed by the extended macros.\n"
