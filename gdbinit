@@ -74,7 +74,7 @@ else
    printf "Edit the $64BITS variable in your .gdbinit file to switch to 64-bit mode.\n"
 end
 # set to 0 if you have problems with the colorized prompt - reported by Plouj with Ubuntu gdb 7.2
-set $COLOUREDPROMPT = 1
+set $COLOUREDPROMPT = 0
 # Colour the first line of the disassembly - default is green, if you want to change it search for
 # SETCOLOUR1STLINE and modify it :-)
 set $SETCOLOUR1STLINE = 0
